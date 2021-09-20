@@ -1,0 +1,27 @@
+{
+  "name": "form-test-backend",
+  "version": "1.0.0",
+  "description": "backend for form-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vector-ok/form-test-backend.git"
+  },
+  "keywords": [
+    "form-test"
+  ],
+  "author": "Victor Okpon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vector-ok/form-test-backend/issues"
+  },
+  "homepage": "https://github.com/vector-ok/form-test-backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.5"
+  }
+}
