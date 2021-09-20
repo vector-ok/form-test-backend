@@ -12,7 +12,7 @@ app.use((req, res, next) => {
     "Access-Control-Allow-Methods",
     "GET, POST, PUT, DELETE, PATCH, OPTIONS"
   );
-  nect();
+  next();
 });
 
 app.use("/", (req, res) => {
